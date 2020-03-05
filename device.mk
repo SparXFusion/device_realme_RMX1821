@@ -106,6 +106,3 @@ PRODUCT_COPY_FILES += \
 
 # Inherit vendor
 $(call inherit-product, vendor/realme/RMX1821/RMX1821-vendor.mk)
-
-# Add vendor_prop.mk
-    include device/xiaomi/onclite/vendor_prop.mk
