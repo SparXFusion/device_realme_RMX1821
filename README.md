@@ -75,15 +75,3 @@ Loudspeaker | Voice 66dB / Noise 71dB / Ring 81dB
 Audio quality | Noise -93.5dB / Crosstalk -91.6dB
 Battery life | Endurance rating 108h
 
-_Note: Above test results may(not) vary._
-
-**This device tree can be used to build twrp for Realme RMX1821 (Realme 3)**
-
-## Build Instructions
-```sh
-export ALLOW_MISSING_DEPENDENCIES=true
-source build/envsetup.sh
-lunch omni_RMX1821-eng
-mka recoveryimage
-```
-
