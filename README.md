@@ -1,4 +1,4 @@
-# TWRP device tree for Realme RMX1821 (Realme 3)
+# Device tree for Realme RMX1821 (Realme 3)
 
 ## About Device
 
@@ -77,13 +77,4 @@ Battery life | Endurance rating 108h
 
 _Note: Above test results may(not) vary._
 
-**This device tree can be used to build twrp for Realme RMX1821 (Realme 3)**
-
-## Build Instructions
-```sh
-export ALLOW_MISSING_DEPENDENCIES=true
-source build/envsetup.sh
-lunch omni_RMX1821-eng
-mka recoveryimage
-```
 
