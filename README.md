@@ -1,4 +1,4 @@
-# TWRP device tree for Realme RMX1821 (Realme 3)
+# device tree for Realme RMX1821 (Realme 3)
 
 ## About Device
 
