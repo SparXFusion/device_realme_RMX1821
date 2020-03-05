@@ -91,8 +91,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/init.ago.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.ago.rc \
     $(LOCAL_PATH)/rootdir/init.connectivity.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.connectivity.rc \
     $(LOCAL_PATH)/rootdir/init.modem.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.modem.rc \
-    $(LOCAL_PATH)/rootdir/init.mt6771.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.mt6771.rc \
-    $(LOCAL_PATH)/rootdir/init.mt6771.usb.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.mt6771.usb.rc \
+    $(LOCAL_PATH)/rootdir/init.mt6771.rc:root/init.mt6771.rc \
+    $(LOCAL_PATH)/rootdir/init.mt6771.usb.rc:root/init.mt6771.usb.rc \
     $(LOCAL_PATH)/rootdir/init.oppo.fingerprints.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.oppo.fingerprints.rc \
     $(LOCAL_PATH)/rootdir/init.oppo.reserve.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.oppo.reserve.rc \
     $(LOCAL_PATH)/rootdir/init.project.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.project.rc \
@@ -102,7 +102,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/meta_init.project.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/meta_init.project.rc \
     $(LOCAL_PATH)/rootdir/meta_init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/meta_init.rc \
     $(LOCAL_PATH)/rootdir/multi_init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/multi_init.rc \
-    $(LOCAL_PATH)/rootdir/fstab.mt6771:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.mt6771 \
+    $(LOCAL_PATH)/rootdir/fstab.mt6771:root/fstab.mt6771 \
     $(LOCAL_PATH)/rootdir/ueventd.qcom.rc:$(TARGET_COPY_OUT_VENDOR)/ueventd.qcom.rc 
 
     
